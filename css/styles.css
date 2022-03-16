@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: #9D978A;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Audiowide", sans-serif;
+  }
+
+  nav h1 {
+    font-size: 2em;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
