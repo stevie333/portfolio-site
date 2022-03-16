@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #e1dfdb;
   }
 
   ul {
@@ -39,3 +39,8 @@ body {
     display: flex;
     gap: 1.9rem;
   }
+
+  .about-me {
+  color: black;
+  padding: 1.5rem 3.5rem;
+}
