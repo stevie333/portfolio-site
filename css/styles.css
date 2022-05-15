@@ -1,5 +1,8 @@
 body {
-    background-color: #e1dfdb;
+    background-color: #FFFFFF;
+    background-image: url("background.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: auto;
   }
 
   ul {
@@ -14,10 +17,11 @@ body {
 
   a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #000000;
   }
 
   nav {
+    color: #000000;
     position: sticky;
     top: 0;
     left: 0;
@@ -26,9 +30,10 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: #9D978A;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
     font-family: "Audiowide", sans-serif;
+    border-radius: 6px;
+    margin-bottom: 2.5rem;
   }
 
   nav h1 {
@@ -40,7 +45,61 @@ body {
     gap: 1.9rem;
   }
 
+  nav a:hover {
+    color: red;
+}
+
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: "Audiowide", sans-serif;
+}
+
   .about-me {
-  color: black;
+  color: #000000;
   padding: 1.5rem 3.5rem;
+  border-radius: 6px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  font-family: 'Courier New', monospace;
+}
+
+.skills {
+  color: #000000;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+  border-radius: 6px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+  font-family: "Audiowide", sans-serif;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.contact-me {
+color: #000000;
+padding: 1.5rem 3.5rem;
+border-radius: 6px;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+background-color: #FFFFFF;
+font-family: 'Courier New', monospace;
+}
+
+.icon {
+  width: 6.25rem;
+  height: 6.25rem;
 }

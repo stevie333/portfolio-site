@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 
         <title>Stevie Mallyon | Front End Web Developer</title>
+
+        <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico">
     </head>
 
     <body>
@@ -16,32 +18,125 @@
     <nav>
         <h1>Stevie Mallyon</h1>
         <ul>
-            <li><a href="#about-me" class="nav-link">About</a></li>
-            <li><a href="#interests" class="nav-link">Interests</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
             <li><a href="https://www.linkedin.com/in/stevie-mallyon-7326a2186/" class="nav-link">LinkedIn</a></li>
         </ul>
     </nav>
 
-<p></p>
-    <section class="about-me">
-          <h2>About Me</h2>
-          <p>
-              Hi, I'm Stevie, I am currently working as a software engineer at Blueprint Gaming. I develop casino games using web development.
-          </p>
-          <p>
-              Some of the games I have developed so far are "Wonder of Ages", "Almighty Gods" and "Copped The Lot: Diamond Heist".
-          </p>
-          <p>
-              I am currently seconded, working on a large project for WhiteHat USA (involves making
-              our games at Blueprint functional for that client and updating each game where
-              required and delivering a large amount of games to the client in a specific time
-              period)
-          </p>
-          <p>
-              In my personal time I love Gaming, mostly Call of Duty or Fortnite.
-          </p>
-        </section>
+    <p></p>
 
+    <section class="about-me" id="about">
+      <h2>About Me</h2>
+      <p>
+          Hi, I'm Stevie, I am currently working as a software engineer at Blueprint Gaming. I develop casino games using web development.
+      </p>
+      <p>
+          Some of the games I have developed so far are "Wonder of Ages", "Almighty Gods" and "Copped The Lot: Diamond Heist".
+      </p>
+      <p>
+          I am currently seconded, working on a large project for WhiteHat USA (this involves making
+          our games at Blueprint functional for that client and updating each game where
+          required and delivering a large amount of games to the client in a specific time
+          period)
+      </p>
+      <p>
+          Whilst I am passionate about gaming and front-end web development, I am looking for an opportunity to get into general web development and become a full-stack developer.
+          I am currently doing new projects at home in my spare time to develop myself.
+      </p>
+
+      <p>
+          In my personal time I love Gaming, mostly Call of Duty, Overwatch and Fortnite.
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+          <h2 class="skill-header">My Top Skills</h2>
+
+         <div class="skills-wrapper">
+           <div class="first-row">
+             <img
+               src="assets/icons/html5-icon.png"
+               alt=""
+               loading="lazy"
+               class="icon icon-logo"
+             />
+             <img
+               src="assets/icons/css3-icon.png"
+               alt=""
+               loading="lazy"
+               class="icon icon-logo"
+             />
+             <img
+               src="assets/icons/javascript-icon.png"
+               alt=""
+               loading="lazy"
+               class="icon icon-logo"
+             />
+             <img
+               src="assets/icons/python-icon.png"
+               alt=""
+               loading="lazy"
+               class="icon icon-logo"
+             />
+           </div>
+         </div>
+     </section>
+
+     <section class="contact" id="contact">
+           <h2>Contact Me</h2>
+           <div class="contact-form-container">
+             <div class="contact-form">
+               <form action="https://formspree.io/f/xyylngw" method="POST">
+                 <div class="form-control">
+                   <label for="name">Name</label>
+                   <input
+                     type="text"
+                     id="name"
+                     name="sender-name"
+                     placeholder="Enter Your Name"
+                     class="input-field"
+                     required
+                   />
+                 </div>
+                 <div class="form-control">
+                   <label for="email">Email</label>
+                   <input
+                     type="email"
+                     id="email"
+                     name="sender-email"
+                     placeholder="Enter Your Email"
+                     class="input-field"
+                     required
+                   />
+                 </div>
+                 <div class="form-control">
+                   <label for="message">Message</label>
+                   <textarea
+                     id="message"
+                     cols="60"
+                     rows="10"
+                     placeholder="Enter Your Message"
+                     name="message"
+                     class="input-field"
+                     required
+                   ></textarea>
+                 </div>
+                 <input
+                   type="submit"
+                   value="Submit"
+                   id="submit-btn"
+                   class="submit-btn"
+                 />
+               </form>
+             </div>
+           </div>
+         </section>
+
+
+
+     </section>
 
 
 
