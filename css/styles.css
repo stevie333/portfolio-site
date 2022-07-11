@@ -17,11 +17,16 @@ body {
 
   a {
     text-decoration: none;
-    color: #000000;
+    color: #fff;
+  }
+
+  p {
+    text-decoration: none;
+    color: #fff;
   }
 
   nav {
-    color: #000000;
+    color: #fff;
     position: sticky;
     top: 0;
     left: 0;
@@ -30,7 +35,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: #FFFFFF;
+    background-color: #808080;
     font-family: "Audiowide", sans-serif;
     border-radius: 6px;
     margin-bottom: 2.5rem;
@@ -46,10 +51,11 @@ body {
   }
 
   nav a:hover {
-    color: red;
+    color: #b30000;
 }
 
   h2 {
+    color: #fff;
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -65,18 +71,19 @@ body {
   padding: 1.5rem 3.5rem;
   border-radius: 6px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  background-color: #FFFFFF;
+  background-color: #808080;
   font-family: 'Courier New', monospace;
 }
 
 .skills {
   color: #000000;
+  padding: 1.5rem 3.5rem;
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
   border-radius: 6px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  background-color: #FFFFFF;
+  background-color: #808080;
   font-family: 'Courier New', monospace;
   margin-bottom: 2.5rem;
 }
@@ -90,16 +97,74 @@ body {
   padding: 1.25rem;
 }
 
-.contact-me {
+.contact {
 color: #000000;
 padding: 1.5rem 3.5rem;
 border-radius: 6px;
 box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-background-color: #FFFFFF;
+background-color: #808080;
 font-family: 'Courier New', monospace;
 }
 
 .icon {
   width: 6.25rem;
   height: 6.25rem;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact-form-container {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container label {
+  line-height: 2.7em;
+  font-weight: bold;
+  color: black;
+  font-family: 'Courier New', monospace;
+}
+
+.contact-form-container message {
+  min-height: 7rem;
+}
+
+.contact-form-container .input-field {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px outset black;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.submit-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #b30000;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact a {
+  text-decoration: underline;
 }
